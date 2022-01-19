@@ -1,0 +1,77 @@
+.roadmap{
+    width: 100%;
+    /* height: 200vh; */
+    background: linear-gradient(  #020a16,#000001);
+    padding-top:90px;
+    padding-bottom:80px;
+}
+.roadmap h2{
+    text-align: center;
+}
+.modelviewer__roadmap {
+    position: relative;
+    height: 30vh !important;
+    width: 100% !important;
+    /* top: -25%;
+    right: 5%; */
+    left: 27%;
+    z-index: 1;
+}
+.modelviewer__roadmap__iphone {
+    position: relative;
+    height: 30vh !important;
+    width: 100% !important;
+    /* top: 0; */
+    /* right: 0; */
+    left: 27%;
+    z-index: 1;
+}
+.modelviewer__roadmap__bitcoin {
+    position: relative;
+    height: 30vh !important;
+    width: 100% !important;
+    /* top: 0; */
+    /* right: 0; */
+    left: -27%;
+    z-index: 1;
+}
+.roadmap .row{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hand{
+    color: #f6a71d;
+    font-size: 80px;
+}
+.roadmap h3{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    color: #32fa04;
+    margin-bottom: 20px;
+}
+.roadmap p{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
+}
+.roadmap .col-md-12:nth-child(odd) .col-md-5:first-child{
+    text-align: right !important;
+}
+.roadmap .col-md-12:nth-child(odd) .col-md-5:last-child{
+    text-align: left !important;
+}
+.roadmap .col-md-12:nth-child(even) .col-md-5:first-child{
+    text-align: right !important;
+}
+.roadmap .col-md-12:nth-child(even) .col-md-5:last-child{
+    text-align: left !important;
+}
+.roadmap .col-md-12:first-child{
+    content:'';
+}
+.roadmap .down__arrow{
+    font-size:5rem;
+    color: #fff;
+}
